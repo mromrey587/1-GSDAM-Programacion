@@ -13,7 +13,7 @@ public class Tema2eje32 {
     
     ArchivoMP3 m=new ArchivoMP3(PL);
     System.out.println(m.getAutor());
-    Reproductor re=new Reproductor(m,true,true);
+    Reproductor re=new Reproductor(m,false,true);
     re.play();
     
     
