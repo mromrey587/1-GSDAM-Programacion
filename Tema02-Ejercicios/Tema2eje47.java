@@ -14,7 +14,8 @@ public class Tema2eje47 {
     try{
     Desktop x=Desktop.getDesktop();
     x.open(n1);}
-    catch(Exception e){}
+    catch(Exception e)
+    {System.out.println("Error:"+e.getMessage());}
     }
 
 }
