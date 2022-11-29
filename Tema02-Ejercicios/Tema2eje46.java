@@ -16,7 +16,7 @@ public class Tema2eje46 {
     System.out.println(Duration.between(n1, n2));
     }
     catch(Exception e)
-    {}
+    {System.out.println("Error:"+e.getMessage());}
     }
 
 }
