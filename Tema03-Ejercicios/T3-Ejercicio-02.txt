@@ -1,0 +1,21 @@
+A) Se repiten los saltos / 10 veces
+B) Flexiones / Hasta que te digan que pares
+C) Número / Pone el numero "0"
+D) Escribir "En clase no se habla" / 100 veces
+
+E) Sacar articulos y mirarlos / 50 veces
+F) Un telefono emite un sonido / (La otra cuelga) o (Lo coges)
+G) Resolver ecuación de segundo grado / 20 veces
+H) Introducir un mensaje por pantalla / Las veces que ponga el usuario
+
+I) Usar la grabadora / se rompe
+J) Andar / Hago un delay cada vez que hago n KM / Paro definitivamente a los 15KM 
+K) Comprar cosas / Se me acaba el dinero
+L) transferir por FTP MB de un fichero byte a byte / Son 5MB
+
+M) Grabar CD en grabadora / (1000) o (se rompa)
+N) Sonar / La apague el dueño
+O) Tirar penaltis / Un equipo mete 5
+P) hacer ejercicios / (40 ejercicios (Por cada 1 mal te suma 3)) o (El profesor te dice que pares)
+
+Q) Se muestra un menu y el usuario selecciona una opción / Le da a salir
