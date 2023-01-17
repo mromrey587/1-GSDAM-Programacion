@@ -1,7 +1,5 @@
-
 package tema3eje12;
 import java.util.*;
-import java.io.*;
 public class Tema3eje12 {
 
     public static void main(String[] args) {
@@ -16,8 +14,8 @@ public class Tema3eje12 {
         List<Integer> notas = new ArrayList<Integer>();
         try{
         while(n!=-1){
-            System.out.println("Introduce notas de alumnos/Cuando pongas '-1'"
-                    + "se acaba el programa");
+            System.out.println("Introduce notas de alumnos(valores enteros)/"
+                    + "Cuando pongas '-1' se acaba el programa");
             n=new Scanner(System.in).nextInt();
             
             if(n==-1){
@@ -36,6 +34,7 @@ public class Tema3eje12 {
             notas.add(n);
             y++;
             System.out.println(notas);}}}
+        
         catch(Exception e){
             System.out.println(e.getMessage());}
             
@@ -43,3 +42,4 @@ public class Tema3eje12 {
     }
 
 }
+
