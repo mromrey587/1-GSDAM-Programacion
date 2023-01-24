@@ -75,35 +75,36 @@ public class Examen310 {
     
     System.out.println("Cuantas contraseñas quieres");
     int ncon=new Scanner(System.in).nextInt();
+    
     for(int v=0;v<ncon;v++){
     
     
-    for(int z=0;z<=nc;){
-        rd=(int) (Math.random() * ((nm)+1-0))+0;
-        if(rd==1){
-            rd=(int) (Math.random() * ((((2-1)+1)-1)+1-0))+0;
-            if((rd==1)&&(usarmay==true)){
+        for(int z=0;z<=nc;){
+            rd=(int) (Math.random() * ((nm)+1-0))+0;
+            if(rd==1){
                 rd=(int) (Math.random() * ((((2-1)+1)-1)+1-0))+0;
-                contraseña.add(let[rd].toUpperCase());}
-            else{
-                rd=(int) (Math.random() * ((((2-1)+1)-1)+1-0))+0;
-                contraseña.add(let[rd]);}
-            
-            z++;}
-        else{
-            if((rd==2)&&(usarnumeros==true)){
-                rd=(int) (Math.random() * ((((nums.size()-1)+1)-1)+1-0))+0;
-                contraseña.add(nums.get(rd));
+                if((rd==1)&&(usarmay==true)){
+                    rd=(int) (Math.random() * ((((let.length-1)+1)-1)+1-0))+0;
+                    contraseña.add(let[rd].toUpperCase());}
+                else{
+                    rd=(int) (Math.random() * ((((let.length-1)+1)-1)+1-0))+0;
+                    contraseña.add(let[rd]);}
+
                 z++;}
             else{
-                    if((rd==3)&&(usarsimbolos==true)){
-                        rd=(int) (Math.random() * (((simbol.size()+1)-1)+1-0))+0;
-                        contraseña.add(simbol.get(rd));
-                        z++;}
-                    else{}}}}
-    
-        System.out.println(contraseña);
-        contraseña.clear();
+                if((rd==2)&&(usarnumeros==true)){
+                    rd=(int) (Math.random() * ((((nums.size()-1)+1)-1)+1-0))+0;
+                    contraseña.add(nums.get(rd));
+                    z++;}
+                else{
+                        if((rd==3)&&(usarsimbolos==true)){
+                            rd=(int) (Math.random() * (((simbol.size()-1)-1)+1-0))+0;
+                            contraseña.add(simbol.get(rd));
+                            z++;}
+                        else{}}}}
+
+            System.out.println(contraseña);
+            contraseña.clear();
     }
     }
 
